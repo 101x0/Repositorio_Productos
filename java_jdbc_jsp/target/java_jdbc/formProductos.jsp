@@ -7,6 +7,9 @@
     <meta charset="UTF-8">
     <title>Formulario</title>
     <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/resources/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -28,7 +31,7 @@
              <div class="principal">
                 <h1>Productos</h1>
                 <form action="${pageContext.request.contextPath}/form" method="post">
-                    <table>
+                    <table class="tablaEditar">
                         <tr>
                             <td><label for="nombre">Producto</label></td>
                             <td><input type="text" name="nombre" id="nombre" value="${producto.nombre}"></td>
@@ -59,7 +62,7 @@
 
                     </table>
 
-                    <input type="submit" value="Guardar"/>
+                    <input id ="guardar" type="submit" value="Guardar"/>
                     <input type="hidden" name="id" value="${producto.id}"/>
                 </form>
              </div>
@@ -68,8 +71,10 @@
         </div>
 
         <footer>
-            <h5>&copy Sergio de Diego, 2022</h5>
-            <p>sergio.de.diego.ter@gmail.com</p>
+            <section>
+                <p>sergio.de.diego.ter@gmail.com</p>
+            </section>
+            <p class="nombre">&copy Sergio de Diego, 2022</p>
         </footer>
 
 </body>

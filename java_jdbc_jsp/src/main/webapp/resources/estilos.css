@@ -33,7 +33,6 @@ nav a{
 }
 
 nav a:hover{
-    /* text-shadow: 3px 3px 7px rgb(255, 255, 255); */
     font-size: large;
     color: rgb(236, 240, 9);
 }
@@ -65,6 +64,37 @@ section h2{
     text-shadow: 3px 3px 10px rgb(73, 73, 73);
 }
 
+section a{
+    border: 2px solid rgb(49, 76, 88);
+    border-radius: 7px;
+    padding: 0.2rem;
+    background-color: rgba(74, 183, 202, 0.507);
+    text-decoration: none;
+    text-shadow: none;
+    color: black;
+    transition: box-shadow 0.3s ease;
+}
+
+section a:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.6);
+}
+
+#guardar{
+    border: 2px solid rgb(49, 76, 88);
+    border-radius: 7px;
+    padding: 0.2rem;
+    background-color: rgba(74, 183, 202, 0.507);
+    text-decoration: none;
+    text-shadow: none;
+    color: black;
+    transition: box-shadow 0.3s ease;
+    margin: 15px;
+}
+
+#guardar:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.6);
+}
+
 footer {
     padding: 10px;
     background-color: black;
@@ -89,6 +119,7 @@ footer section{
 }
 
 table{
+    margin-top: 10px;
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
     border-collapse: collapse;
@@ -106,7 +137,7 @@ th{
 td{
     padding: 7px 15px;
     text-align-last: center;
-    border: 2px solid rgb(38, 66, 38);
+    border: 2px solid black;
 }
 
 tr:nth-child(even){
@@ -134,8 +165,8 @@ tr:hover{
     text-shadow: none;
     color: black;
     transition: box-shadow 0.3s ease;
-
 }
+
 .editar a:hover{
     box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.6);
 }
@@ -148,8 +179,6 @@ tr:hover{
     margin: 0px;
     padding: 5px;
     background-color: lightgrey;
-
-
     border: none;
 }
 
@@ -163,6 +192,7 @@ tr:hover{
     color: black;
     transition: box-shadow 0.3s ease;
 }
+
 .eliminar a:hover{
     box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.6);
 }
@@ -181,4 +211,13 @@ button{
 
 .titulo {
         text-shadow: 3px 3px 3px rgb(255, 255, 255);
+}
+
+.tablaEditar td{
+    border: none;
+    text-align-last: left;
+}
+
+.tablaEditar tr:nth-child(even){
+    background-color: inherit;
 }
