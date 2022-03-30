@@ -5,8 +5,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Inicio</title>
-        <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/resources/estilos.css">
-
+    <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/resources/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
 </head>
 <body>
         <header><h1>Inicio</h1></header>
@@ -30,8 +32,10 @@
         </div>
 
         <footer>
-            <h5>&copy Sergio de Diego, 2022</h5>
-            <p>sergio.de.diego.ter@gmail.com</p>
-        </footer>
+            <section>
+                <p>sergio.de.diego.ter@gmail.com</p>
+            </section>
+        <p class="nombre">&copy Sergio de Diego, 2022</p>
+    </footer>
 </body>
 </html>
