@@ -1,0 +1,15 @@
+C:\Cursos\Java\IdeaProjects\java_jdbc_jsp\src\main\java\org\sergio\java\jdbc\filtros\ConexionFiltro.java
+C:\Cursos\Java\IdeaProjects\java_jdbc_jsp\src\main\java\org\sergio\java\jdbc\modelo\Producto.java
+C:\Cursos\Java\IdeaProjects\java_jdbc_jsp\src\main\java\org\sergio\java\jdbc\repositorio\Repositorio.java
+C:\Cursos\Java\IdeaProjects\java_jdbc_jsp\src\main\java\org\sergio\java\jdbc\Main.java
+C:\Cursos\Java\IdeaProjects\java_jdbc_jsp\src\main\java\org\sergio\java\jdbc\repositorio\ProductoRepositorioImpl.java
+C:\Cursos\Java\IdeaProjects\java_jdbc_jsp\src\main\java\org\sergio\java\jdbc\util\ConexionBBDD.java
+C:\Cursos\Java\IdeaProjects\java_jdbc_jsp\src\main\java\org\sergio\java\jdbc\servicio\ServicioProductoCategoria.java
+C:\Cursos\Java\IdeaProjects\java_jdbc_jsp\src\main\java\org\sergio\java\jdbc\servlets\FormCategoriaServlet.java
+C:\Cursos\Java\IdeaProjects\java_jdbc_jsp\src\main\java\org\sergio\java\jdbc\servicio\ServicioProductoCategoriaImpl.java
+C:\Cursos\Java\IdeaProjects\java_jdbc_jsp\src\main\java\org\sergio\java\jdbc\servlets\FormProductoServlet.java
+C:\Cursos\Java\IdeaProjects\java_jdbc_jsp\src\main\java\org\sergio\java\jdbc\servlets\ListarProductosServlet.java
+C:\Cursos\Java\IdeaProjects\java_jdbc_jsp\src\main\java\org\sergio\java\jdbc\repositorio\CategoriaRepositorioImpl.java
+C:\Cursos\Java\IdeaProjects\java_jdbc_jsp\src\main\java\org\sergio\java\jdbc\modelo\Categoria.java
+C:\Cursos\Java\IdeaProjects\java_jdbc_jsp\src\main\java\org\sergio\java\jdbc\servlets\ListarCategoriasServlet.java
+C:\Cursos\Java\IdeaProjects\java_jdbc_jsp\src\main\java\org\sergio\java\jdbc\servlets\EliminarProductoServlet.java

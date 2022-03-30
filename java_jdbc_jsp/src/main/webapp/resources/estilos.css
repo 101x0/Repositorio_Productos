@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+}
+
+header h1{
+    text-shadow: 3px 3px 7px rgb(255, 255, 255);
+    color:white;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+    min-height: 50px;
+}
+
+nav a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+nav a:hover{
+    /* text-shadow: 3px 3px 7px rgb(255, 255, 255); */
+    font-size: large;
+    color: rgb(236, 240, 9);
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside{
+    flex: 30px;
+    background-color: rgb(83, 93, 102);
+    padding: 20px;
+    color: silver;
+}
+
+aside h2{
+    color: white;
+    text-shadow: 3px 3px 1px rgb(0, 0, 0);
+}
+
+section{
+    flex: 70%;
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+section h2{
+    text-shadow: 3px 3px 10px rgb(73, 73, 73);
+}
+
+footer {
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+footer section{
+    background-color: black;
+    float: right;
+    padding-bottom: 0.8rem;
+}
+
+.nombre{
+    font-family: 'Tangerine', 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 700px){
+    nav, .row{
+        flex-direction: column;
+    }
+}
+
+table{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    border-collapse: collapse;
+}
+
+th{
+    padding: 10px 15px;
+    border: 2px solid black;
+    background-color: rgb(83, 93, 102);
+    color: aliceblue;
+    font-weight: normal;
+    border-radius: 2px;
+}
+
+td{
+    padding: 7px 15px;
+    text-align-last: center;
+    border: 2px solid rgb(38, 66, 38);
+}
+
+tr:nth-child(even){
+    background-color: darkgray;
+}
+
+tr:hover{
+    transition: text-shadow 0.3s ease;
+    text-shadow: 2px 2px 5px rgb(43, 66, 43);
+}
+
+.editar {
+    border: 0;
+    margin: 0px;
+    padding: 5px 10px;
+    background-color: lightgrey;
+}
+
+.editar a{
+    border: 2px solid rgb(60, 88, 49);
+    border-radius: 7px;
+    padding: 0.2rem;
+    background-color: rgba(188, 235, 170, 0.507);
+    text-decoration: none;
+    text-shadow: none;
+    color: black;
+    transition: box-shadow 0.3s ease;
+
+}
+.editar a:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.6);
+}
+
+.editar:hover {
+    text-shadow: none;
+}
+
+.eliminar {
+    margin: 0px;
+    padding: 5px;
+    background-color: lightgrey;
+
+
+    border: none;
+}
+
+.eliminar a{
+    border: 2px solid rgb(88, 49, 49);
+    border-radius: 7px;
+    padding: 0.2rem;
+    background-color: rgba(235, 170, 170, 0.507);
+    text-decoration: none;
+    text-shadow: none;
+    color: black;
+    transition: box-shadow 0.3s ease;
+}
+.eliminar a:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.6);
+}
+
+button{
+    border-radius: 4px;
+}
+
+#botonEditar {
+    background-color: rgb(111, 175, 151);
+}
+
+#botonEliminar {
+    background-color: rgb(187, 63, 63);
+}
+
+.titulo {
+        text-shadow: 3px 3px 3px rgb(255, 255, 255);
+}

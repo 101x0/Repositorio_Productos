@@ -1,0 +1,15 @@
+org\sergio\java\jdbc\Main.class
+org\sergio\java\jdbc\servlets\EliminarProductoServlet.class
+org\sergio\java\jdbc\modelo\Categoria.class
+org\sergio\java\jdbc\servlets\FormProductoServlet.class
+org\sergio\java\jdbc\util\ConexionBBDD.class
+org\sergio\java\jdbc\repositorio\ProductoRepositorioImpl.class
+org\sergio\java\jdbc\filtros\ConexionFiltro.class
+org\sergio\java\jdbc\servlets\FormCategoriaServlet.class
+org\sergio\java\jdbc\servlets\ListarCategoriasServlet.class
+org\sergio\java\jdbc\repositorio\Repositorio.class
+org\sergio\java\jdbc\servicio\ServicioProductoCategoria.class
+org\sergio\java\jdbc\modelo\Producto.class
+org\sergio\java\jdbc\servlets\ListarProductosServlet.class
+org\sergio\java\jdbc\repositorio\CategoriaRepositorioImpl.class
+org\sergio\java\jdbc\servicio\ServicioProductoCategoriaImpl.class
