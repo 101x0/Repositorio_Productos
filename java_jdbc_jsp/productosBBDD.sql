@@ -26,7 +26,7 @@ CREATE TABLE `categorias` (
   `id` int NOT NULL AUTO_INCREMENT,
   `nombre` varchar(45) COLLATE utf8mb4_hu_0900_as_cs DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hu_0900_as_cs;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hu_0900_as_cs;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -35,7 +35,7 @@ CREATE TABLE `categorias` (
 
 LOCK TABLES `categorias` WRITE;
 /*!40000 ALTER TABLE `categorias` DISABLE KEYS */;
-INSERT INTO `categorias` VALUES (1,'deportes'),(2,'tecnologia'),(3,'Transportes');
+INSERT INTO `categorias` VALUES (1,'Deportes'),(2,'Tecnología'),(3,'Transportes'),(4,'Iluminación');
 /*!40000 ALTER TABLE `categorias` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -64,7 +64,7 @@ CREATE TABLE `productos` (
 
 LOCK TABLES `productos` WRITE;
 /*!40000 ALTER TABLE `productos` DISABLE KEYS */;
-INSERT INTO `productos` VALUES (1,'Bicicleta',200,'2007-07-15 00:00:00',1),(7,'zapatillas',85,'2022-03-01 00:00:00',1),(9,'PC',1450,'2022-03-02 00:00:00',2),(12,'lampara',30,'2022-03-28 00:00:00',2),(13,'bombilla',12,'2022-03-28 00:00:00',2),(16,'impresora',425,'2022-02-14 00:00:00',2),(17,'prueba 17',16,'2022-03-28 00:00:00',2),(18,'prueba deportes',5,'2022-01-01 00:00:00',1);
+INSERT INTO `productos` VALUES (1,'Bicicleta',200,'2007-07-15 00:00:00',1),(7,'Zapatillas',85,'2022-03-01 00:00:00',1),(9,'PC',750,'2020-10-02 00:00:00',2),(12,'lampara',30,'2020-01-19 00:00:00',4),(13,'bombilla',12,'2021-05-11 00:00:00',4),(16,'impresora',425,'2022-02-14 00:00:00',2),(17,'Monitor',959,'2021-09-24 00:00:00',2),(18,'Moto',1850,'2016-08-19 00:00:00',3);
 /*!40000 ALTER TABLE `productos` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -77,4 +77,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-03-30 12:04:07
+-- Dump completed on 2022-03-31 19:36:16

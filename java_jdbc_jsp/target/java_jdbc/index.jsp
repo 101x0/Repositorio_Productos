@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Inicio</title>
-    <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/resources/estilos.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
@@ -16,7 +16,6 @@
             <a href="${pageContext.request.contextPath}/index.jsp">Home</a>
             <a href="${pageContext.request.contextPath}/prod">Ver productos</a>
             <a href="${pageContext.request.contextPath}/categorias">Ver categorias</a>
-            <a href="#">Contacto</a>
         </nav>
 
         <div class="row">
