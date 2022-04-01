@@ -34,7 +34,6 @@ public class FormCategoriaServlet extends HttpServlet {
         }
 
         Categoria categoria = servicio.porIdCategoria(id).orElse(new Categoria());
-        System.out.println(">>>>>>>>>>>>>>> doGet: categoria.getId() categoria.getNombre() = " + categoria.getId() + " " + categoria.getNombre());
         req.setAttribute("categoria", categoria);
         getServletContext().getRequestDispatcher("/formCategorias.jsp").forward(req, resp);
     }
@@ -57,9 +56,6 @@ public class FormCategoriaServlet extends HttpServlet {
         Categoria c = new Categoria();
         c.setId(id);
         c.setNombre(nombre);
-
-
-        System.out.println(">>>>>>>>>>>>>>> doPost: categoria.getId() categoria.getNombre() = " + c.getId() + " " + c.getNombre());
 
         servicio.guardarCategoria(c);
         resp.sendRedirect(req.getContextPath() + "/categorias");
